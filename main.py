@@ -13,9 +13,9 @@ salary = 30000.00
 
 
 # Deduction Calculations
-stateTax = salary * ( stateTaxPercent)
-fedTax = salary * (fedTaxPercent)
-dependentDeduction = numDependants * (salary * deductionPercent) 
+stateTax = salary *  stateTaxPercent
+fedTax = salary * fedTaxPercent
+dependentDeduction = numDependants * salary * deductionPercent 
 
 
 # Totals
