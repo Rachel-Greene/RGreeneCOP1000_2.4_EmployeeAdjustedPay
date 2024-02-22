@@ -26,6 +26,6 @@ takeHomePay = salary - totalWithholding
 # Output Statements
 print("State Tax: $" +str(stateTax))
 print("Federal Tax: $" +str(fedTax))
-print("Dependants: $" +str(dependentDeduction))
+print("Dependants: " +str(dependentDeduction))
 print("Salary: $" + str(salary))
 print("Take Home Pay: $" + str(takeHomePay))
